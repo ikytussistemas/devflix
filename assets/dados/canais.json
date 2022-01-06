@@ -14,7 +14,7 @@
   {
     "key": 3,
     "title": "Felipe Descahamps",
-    "img":"assets/imgs/canais/filipi_deschamps.jpg",
+    "img":"assets/imgs/canais/filipe_deschamps.jpg",
     "url":"https://www.youtube.com/c/FilipeDeschamps"
   },
   {
@@ -58,5 +58,5 @@
     "title": "Sujeito Programador",
     "img":"assets/imgs/canais/sujeito_programador.png",
     "url":"https://www.youtube.com/c/Sujeitoprogramador"
-  },
+  }
 ]

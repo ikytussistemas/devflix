@@ -9,7 +9,7 @@
   {
     "key": 2,
     "title": "Font Meme",
-    "description":"Font Meme é um recurso de fontes e tipografia. Com ferramentas para busca de fonte e criação de logos"
+    "description":"Font Meme é um recurso de fontes e tipografia. Com ferramentas para busca de fonte e criação de logos",
     "img":"assets/imgs/tools/fontmeme.png",
     "url":"https://fontmeme.com/"
   },
@@ -59,15 +59,14 @@
     "key": 9,
     "title": "Favicon Generator",
     "description":"Gerador de favicons",
-    "img":"assets/imgs/canais/favicon.png",
+    "img":"assets/imgs/tools/favicon.png",
     "url":"https://www.favicon-generator.org/"
   },
   {
     "key": 10,
     "title": "Base64 Image",
     "description":"Conversor de imagens para base64.",
-    "img":"assets/imgs/canais/base64.png",
+    "img":"assets/imgs/tools/base64.png",
     "url":"https://www.base64-image.de/"
-  },
-  
+  }  
 ]
