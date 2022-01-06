@@ -9,16 +9,65 @@
   {
     "key": 2,
     "title": "Cognizer",
-    "description":"Olá Dev, no Bootcamp Inter Frontend Developer você aprenderá sobre React - uma das principais tecnologias utilizadas pelo Inter, que é uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil. Essa é a sua chance de progredir na sua carreira em desenvolvimento de software! O Órbi Conecta é um dos principais hubs de inovação do Brasil e o Órbi Academy Techboost, sendo um dos maiores programas brasileiros de formação em carreiras de tecnologia e distribuirá mais de 130 mil bolsas de estudo até 2022, impactando toda a comunidade tech brasileira.",
+    "description":"Hey Dev, já considerou a possibilidade de se tornar ainda mais potente para o mercado, se especializando na tecnologia de desenvolvimento mais utilizada no mundo? Se sim, este é o seu momento de brilhar! O Bootcamp Cognizant Java Developer foi pensado exclusivamente para o seu desenvolvimento na tecnologia de Java, contendo uma sequência completa de cursos, mentorias e desafios. Não perca essa chance e inscreva-se já!",
     "img":"assets/imgs/bootcamps/cognizant.png",
-    "url":"https://web.dio.me/track/inter-frontend-developer?tab=path"
+    "url":"https://web.dio.me/track/cognizant-java-developer?tab=path"
   },
 
   {
     "key": 3,
-    "title": "Cognizer",
-    "description":"Olá Dev, no Bootcamp Inter Frontend Developer você aprenderá sobre React - uma das principais tecnologias utilizadas pelo Inter, que é uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil. Essa é a sua chance de progredir na sua carreira em desenvolvimento de software! O Órbi Conecta é um dos principais hubs de inovação do Brasil e o Órbi Academy Techboost, sendo um dos maiores programas brasileiros de formação em carreiras de tecnologia e distribuirá mais de 130 mil bolsas de estudo até 2022, impactando toda a comunidade tech brasileira.",
+    "title": "Impulso",
+    "description":"Olá Dev, chegou o momento de você se tornar ainda mais hábil para o mercado: o Bootcamp Impulso React Web Developer traz os principais fundamentos de React e JavaScript. Se inscreva agora e tenha a chance de aprimorar os seus domínios e ser o próximo contratado!",
     "img":"assets/imgs/bootcamps/impulso.png",
-    "url":"https://web.dio.me/track/inter-frontend-developer?tab=path"
-  }
+    "url":"https://web.dio.me/track/impulso-react-web-developer?tab=path"
+  },
+  {
+    "key": 4,
+    "title": "Amdocs Java Developer",
+    "description":"Olá Dev, já pensou na possibilidade de se tornar mais hábil para o mercado, e de se especializar ainda mais na tecnologia de Java? Pois se sim, este é o seu momento de brilhar! O Bootcamp Amdocs JAVA Developer foi pensado especialmente para o seu desenvolvimento como Dev, trazendo uma sequência completa de cursos, mentorias e desafios. Não perca essa chance e se inscreva!",
+    "img":"assets/imgs/bootcamps/amdocs.png",
+    "url":"https://web.dio.me/track/amdocs-java-developer?tab=path"
+  },
+  {
+    "key": 5,
+    "title": "Decola Tech",
+    "description":"O Decola Tech Avanade é o programa de Estágio da Avanade no qual os futuros talentos poderão ser contratados através do Bootcamp online com a Digital Innovation One, com mais de 60 horas de duração. Depois do Bootcamp, você passará por um processo seletivo e poderá fazer um estágio na Avanade, uma joint venture da Microsoft e Accenture, em um programa de aceleração criado especialmente para você com certificações Microsoft inclusas e um planejamento de carreira.",
+    "img":"assets/imgs/bootcamps/decola_tech.png",
+    "url":"https://web.dio.me/track/decola-tech-2a-edicao?tab=path"
+  },
+  {
+    "key": 6,
+    "title": "Become Remote",
+    "description":"Tudo o que você precisa saber para ser um profissional de sucesso de forma remota. Esse bootcamp vai te ajudar a se preparar para oportunidades ou projetos remotos de forma eficaz e direto ao ponto. Aprenda sobre comunicação, ferramentas, escopo e os desafios de trabalhar remoto. Você vai sair desse curso já sabendo as boas práticas dessa nova forma de trabalho e vai poder ser produtivo desde o dia 01 em um novo projeto.",
+    "img":"assets/imgs/bootcamps/become_remote.png",
+    "url":"https://web.dio.me/track/become-remote?tab=path"
+  },
+  {
+    "key": 7,
+    "title": "Localiza Labs",
+    "description":"Olá Dev, o Bootcamp LocalizaLabs .NET Developer #2, faz parte do programa Órbi Academy Techboost - com uma iniciativa da DIO junto ao Órbi, está pronto para você! Neste Bootcamp você aprenderá os conceitos principais sobre .NET para atuação em projetos de desenvolvimento web e de componentes de interface de usuários. O Órbi Conecta é um dos principais hubs de inovação do Brasil e o Órbi Academy Techboost é um dos maiores programas brasileiros de formação em carreiras de tecnologia que distribuirá mais de 130 mil bolsas de estudo até 2022, impactando toda a comunidade tech brasileira.",
+    "img":"assets/imgs/bootcamps/localiza.png",
+    "url":"https://web.dio.me/track/localiza-net-developer-2?tab=path"
+  },
+  {
+    "key": 8,
+    "title": "MRV Full Stack",
+    "description":"Olá Dev, o Bootcamp MRV Fullstack Developer está pronto especialmente para você! Nele você aprenderá os conceitos de desenvolvimento de software para criar soluções digitais, para atuar em projetos de desenvolvimento web e de componentes da interface de usuários. O Órbi Conecta é um dos principais hubs de inovação do Brasil e o Órbi Academy Techboost, sendo um dos maiores programas brasileiros de formação em carreiras de tecnologia e distribuirá mais de 130 mil bolsas de estudo até 2022, impactando toda a comunidade tech brasileira.",
+    "img":"assets/imgs/bootcamps/mrv.png",
+    "url":"https://web.dio.me/track/mrv-fullstack-developer?tab=path"
+  },
+  {
+    "key": 9,
+    "title": "NTT Data Android",
+    "description":"Olá Dev, essa é a sua chance de conquistar a melhor oportunidade na NTT DATA como profissional Android! Nessa jornada rumo a contratação, através do Bootcamp NTT DATA Android Developer, você irá aprender sobre noções em automação de testes e as principais ferramentas mais utilizadas no mercado, além de se conectar com grandes experts da área.",
+    "img":"assets/imgs/bootcamps/ntt.png",
+    "url":"https://web.dio.me/track/ntt-data-android-developer?tab=path"
+  },
+  {
+    "key": 10,
+    "title": "Tqi Java Developer",
+    "description":"Olá, Dev! Temos um programa com foco na tecnologia Java pronto para você! Sua oportunidade de conquistar um espaço dentro do mercado está aqui: Bootcamp TQI Java Developer. Você terá chances de aprender ainda mais sobre Java, uma das principais tecnologias mais utilizada no mercado e se conectar com grandes experts da área!",
+    "img":"assets/imgs/bootcamps/tqi_java.png",
+    "url":"https://web.dio.me/track/tqi-java-developer?tab=path"
+  },
 ]

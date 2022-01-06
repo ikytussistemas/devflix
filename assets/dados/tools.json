@@ -1,24 +1,73 @@
 [
   {
     "key": 1,
-    "title": "Inter Frontend Developer",
-    "description":"Olá Dev, no Bootcamp Inter Frontend Developer você aprenderá sobre React - uma das principais tecnologias utilizadas pelo Inter, que é uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil. Essa é a sua chance de progredir na sua carreira em desenvolvimento de software! O Órbi Conecta é um dos principais hubs de inovação do Brasil e o Órbi Academy Techboost, sendo um dos maiores programas brasileiros de formação em carreiras de tecnologia e distribuirá mais de 130 mil bolsas de estudo até 2022, impactando toda a comunidade tech brasileira.",
-    "img":"assets/imgs/bootcamps/inter.png",
-    "url":"https://web.dio.me/track/inter-frontend-developer?tab=path"
+    "title": "Notion",
+    "description":"Notion é uma aplicação que fornece componentes tais como notas, bases de dados, quadros, wikis, calendários e lembretes. Os usuários podem ligar estes componentes para criar os seus próprios sistemas de gerenciamento do conhecimento, tomada de notas, gerenciamento de dados, gerenciamento de projetos, entre outros",
+    "img":"assets/imgs/tools/notion.png",
+    "url":"https://www.notion.so/pt-br"
   },
   {
     "key": 2,
-    "title": "Cognizer",
-    "description":"Olá Dev, no Bootcamp Inter Frontend Developer você aprenderá sobre React - uma das principais tecnologias utilizadas pelo Inter, que é uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil. Essa é a sua chance de progredir na sua carreira em desenvolvimento de software! O Órbi Conecta é um dos principais hubs de inovação do Brasil e o Órbi Academy Techboost, sendo um dos maiores programas brasileiros de formação em carreiras de tecnologia e distribuirá mais de 130 mil bolsas de estudo até 2022, impactando toda a comunidade tech brasileira.",
-    "img":"assets/imgs/bootcamps/cognizant.png",
-    "url":"https://web.dio.me/track/inter-frontend-developer?tab=path"
+    "title": "Font Meme",
+    "description":"Font Meme é um recurso de fontes e tipografia. Com ferramentas para busca de fonte e criação de logos"
+    "img":"assets/imgs/tools/fontmeme.png",
+    "url":"https://fontmeme.com/"
   },
-
   {
     "key": 3,
-    "title": "Cognizer",
-    "description":"Olá Dev, no Bootcamp Inter Frontend Developer você aprenderá sobre React - uma das principais tecnologias utilizadas pelo Inter, que é uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil. Essa é a sua chance de progredir na sua carreira em desenvolvimento de software! O Órbi Conecta é um dos principais hubs de inovação do Brasil e o Órbi Academy Techboost, sendo um dos maiores programas brasileiros de formação em carreiras de tecnologia e distribuirá mais de 130 mil bolsas de estudo até 2022, impactando toda a comunidade tech brasileira.",
-    "img":"assets/imgs/bootcamps/impulso.png",
-    "url":"https://web.dio.me/track/inter-frontend-developer?tab=path"
-  }
+    "title": "React Native",
+    "description":"React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.",
+    "img":"assets/imgs/tools/reactnative.png",
+    "url":"https://reactnative.dev/"
+  },
+  {
+    "key": 4,
+    "title": "Figma",
+    "description":"Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web, com ferramentas offline adicionais para aplicações desktop para GNU/Linux, macOS e Windows.",
+    "img":"assets/imgs/tools/figma.png",
+    "url":"https://www.figma.com/"
+  },
+  {
+    "key": 5,
+    "title": "CSS Gradient",
+    "description":"CSS Gradient é uma ferramenta gratuita que permite criar um fundo gradiente para sites. Além de ser um gerador de gradiente de CSS, o site também está repleto de conteúdo sobre gradientes, de artigos técnicos a exemplos de gradientes da vida real, como Stripe e Instagram.",
+    "img":"assets/imgs/tools/cssgradient.png",
+    "url":"https://cssgradient.io/"
+  },
+  {
+    "key": 6,
+    "title": "Github",
+    "description":"GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.",
+    "img":"assets/imgs/tools/github.png",
+    "url":"https://github.com/"
+  },
+  {
+    "key": 7,
+    "title": "Mongodb Atlas",
+    "description":"MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.",
+    "img":"assets/imgs/tools/mongodb.png",
+    "url":"https://www.mongodb.com/"
+  },
+  {
+    "key": 8,
+    "title": "Bootstrap",
+    "description":"Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.",
+    "img":"assets/imgs/tools/bootstrap.png",
+    "url":"https://getbootstrap.com/"
+  },
+  {
+    "key": 9,
+    "title": "Favicon Generator",
+    "description":"Gerador de favicons",
+    "img":"assets/imgs/canais/favicon.png",
+    "url":"https://www.favicon-generator.org/"
+  },
+  {
+    "key": 10,
+    "title": "Base64 Image",
+    "description":"Conversor de imagens para base64.",
+    "img":"assets/imgs/canais/base64.png",
+    "url":"https://www.base64-image.de/"
+  },
+  
 ]

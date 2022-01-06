@@ -1,24 +1,62 @@
 [
   {
     "key": 1,
-    "title": "Inter Frontend Developer",
-    "description":"Olá Dev, no Bootcamp Inter Frontend Developer você aprenderá sobre React - uma das principais tecnologias utilizadas pelo Inter, que é uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil. Essa é a sua chance de progredir na sua carreira em desenvolvimento de software! O Órbi Conecta é um dos principais hubs de inovação do Brasil e o Órbi Academy Techboost, sendo um dos maiores programas brasileiros de formação em carreiras de tecnologia e distribuirá mais de 130 mil bolsas de estudo até 2022, impactando toda a comunidade tech brasileira.",
-    "img":"assets/imgs/bootcamps/inter.png",
-    "url":"https://web.dio.me/track/inter-frontend-developer?tab=path"
+    "title": "Dev Soltinho",
+    "img":"assets/imgs/canais/dev_soltinho.jpg",
+    "url":"https://www.youtube.com/c/DevSoutinho"
   },
   {
     "key": 2,
-    "title": "Cognizer",
-    "description":"Olá Dev, no Bootcamp Inter Frontend Developer você aprenderá sobre React - uma das principais tecnologias utilizadas pelo Inter, que é uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil. Essa é a sua chance de progredir na sua carreira em desenvolvimento de software! O Órbi Conecta é um dos principais hubs de inovação do Brasil e o Órbi Academy Techboost, sendo um dos maiores programas brasileiros de formação em carreiras de tecnologia e distribuirá mais de 130 mil bolsas de estudo até 2022, impactando toda a comunidade tech brasileira.",
-    "img":"assets/imgs/bootcamps/cognizant.png",
-    "url":"https://web.dio.me/track/inter-frontend-developer?tab=path"
+    "title": "Dev Superior",
+    "img":"assets/imgs/canais/devsuperior.jpg",
+    "url":"https://www.youtube.com/c/DevSuperior"
   },
-
   {
     "key": 3,
-    "title": "Cognizer",
-    "description":"Olá Dev, no Bootcamp Inter Frontend Developer você aprenderá sobre React - uma das principais tecnologias utilizadas pelo Inter, que é uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil. Essa é a sua chance de progredir na sua carreira em desenvolvimento de software! O Órbi Conecta é um dos principais hubs de inovação do Brasil e o Órbi Academy Techboost, sendo um dos maiores programas brasileiros de formação em carreiras de tecnologia e distribuirá mais de 130 mil bolsas de estudo até 2022, impactando toda a comunidade tech brasileira.",
-    "img":"assets/imgs/bootcamps/impulso.png",
-    "url":"https://web.dio.me/track/inter-frontend-developer?tab=path"
-  }
+    "title": "Felipe Descahamps",
+    "img":"assets/imgs/canais/filipi_deschamps.jpg",
+    "url":"https://www.youtube.com/c/FilipeDeschamps"
+  },
+  {
+    "key": 4,
+    "title": "Canal Geek Dev",
+    "img":"assets/imgs/canais/geek_dev.png",
+    "url":"https://www.youtube.com/c/CanalGeekDev"
+  },
+  {
+    "key": 5,
+    "title": "Hora de Codar",
+    "img":"assets/imgs/canais/hora_de_codar.png",
+    "url":"https://www.youtube.com/c/MatheusBattisti"
+  },
+  {
+    "key": 6,
+    "title": "Loiane Groner",
+    "img":"assets/imgs/canais/loiane_groner.jpg",
+    "url":"https://www.youtube.com/c/loianegroner"
+  },
+  {
+    "key": 7,
+    "title": "Lucas Montano",
+    "img":"assets/imgs/canais/lucas_montano.png",
+    "url":"https://www.youtube.com/c/LucasMontano"
+  },
+  {
+    "key": 8,
+    "title": "Otavio Lemos",
+    "img":"assets/imgs/canais/otavio_lemos.jpg",
+    "url":"https://www.youtube.com/user/OtavioALLemos"
+  },
+  {
+    "key": 9,
+    "title": "Rocketseat",
+    "img":"assets/imgs/canais/rocketseat.jpg",
+    "url":"https://www.youtube.com/c/RocketSeat"
+  },
+  {
+    "key": 10,
+    "title": "Sujeito Programador",
+    "img":"assets/imgs/canais/sujeito_programador.png",
+    "url":"https://www.youtube.com/c/Sujeitoprogramador"
+  },
 ]
