@@ -17,7 +17,10 @@ const creatCardsBoot = (boot) => {
     var card = document.createElement('div');
     var img = document.createElement('img');
     var title = document.createElement("h1");
+    var desc = document.createElement("p");
 
+    desc.innerHTML = boot[i]['description']
+    desc.style.display = 'none'
     
     card.classList.add('slide');
     img.src = boot[i]["img"];
@@ -26,7 +29,14 @@ const creatCardsBoot = (boot) => {
     
     card.appendChild(img);
     card.appendChild(title);
+    card.appendChild(desc);
     swiper.appendChild(card);
-   
   }
 };
+
+const createModal = (element) => {
+  var modal = document.createElement('div');
+  
+
+}
+

@@ -1,62 +1,20 @@
-var header = document.querySelector('header');
-var section = document.querySelector('#teste');
+const nextBtns = document.getElementsByClassName('next')
+const prevBtns = document.getElementsByClassName('prev')
 
-var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
-var url = '../dados/teste.json';
-
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-
-request.onload = function() {
-  var superHeroes = request.response;
-
-  console.log(superHeroes);
-
-  //populateHeader(superHeroes);
-  //showHeroes(superHeroes);
-}
-
-function populateHeader(jsonObj) {
-  var myH1 = document.createElement('h1');
-  myH1.textContent = jsonObj['squadName'];
-  header.appendChild(myH1);
-
-  var myPara = document.createElement('p');
-  myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
-  header.appendChild(myPara);
-}
-
-function showHeroes(jsonObj) {
-  var heroes = jsonObj['members'];
-
-  for (var i = 0; i < heroes.length; i++) {
-    var myArticle = document.createElement('article');
-    var myH2 = document.createElement('h2');
-    var myPara1 = document.createElement('p');
-    var myPara2 = document.createElement('p');
-    var myPara3 = document.createElement('p');
-    var myList = document.createElement('ul');
-
-    myH2.textContent = heroes[i].name;
-    myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-    myPara2.textContent = 'Age: ' + heroes[i].age;
-    myPara3.textContent = 'Superpowers:';
-
-    var superPowers = heroes[i].powers;
-    for (var j = 0; j < superPowers.length; j++) {
-      var listItem = document.createElement('li');
-      listItem.textContent = superPowers[j];
-      myList.appendChild(listItem);
+for(let nextbtn of nextBtns) {
+  nextbtn.addEventListener("click", event => {
+    const slidesN = event['path'][1]
+    if(slidesN.scrollLeft >= (slidesN.scrollWidth- slidesN.clientWidth)) {
+      slidesN.scrollLeft = 0
+    } else {
+      slidesN.scrollBy(300, 0)
     }
+  })
+}
 
-    myArticle.appendChild(myH2);
-    myArticle.appendChild(myPara1);
-    myArticle.appendChild(myPara2);
-    myArticle.appendChild(myPara3);
-    myArticle.appendChild(myList);
-
-    section.appendChild(myArticle);
-  }
+for(let prevBtn of prevBtns) {
+  prevBtn.addEventListener("click", event => {
+    const slidesP = event['path'][1]
+    slidesP.scrollBy(-300, 0)
+  })
 }

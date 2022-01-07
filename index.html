@@ -15,29 +15,43 @@
       <img class="logo" src="assets/imgs/base/devflix.png" alt="DEVFLIX" />
       <nav>
         <a href="#">Início</a>
-        <a href="#">Bootcamps</a>
-        <a href="#">Canais Dev</a>
-        <a href="#">Ferramentas</a>
+        <a href="#slides-boot">Bootcamps</a>
+        <a href="#slides-canais">Canais Dev</a>
+        <a href="#slides-tools">Ferramentas</a>
       </nav>
     </div>
 	</header>
+	<div class="banner">
+		<button>
+			<a href="https://web.dio.me/track/inter-frontend-developer?tab=path" target="_black">
+				Acessar Bootcamp em Destaque!
+			</a>
+		</button>
+	</div>
 	<main>
-		<div class="banner">
-	
-		</div>
-
-		<section class=" section paralax-1">
+		<section id="slides-boot" class="slides-wrapper paralax-1">
 			<div class="category"> BOOTCAMPS</div>
-			<div id="bootcamps" class="carrosel"></div>
+			<div id="bootcamps" class="slides">
+				<div class="prev"></div>
+				<div class="next"></div>
+			</div>
 		</section>
-		<section class="section paralax-2">
+		
+		<section id="slides-canais" class="slides-wrapper paralax-2">
 			<div class="category">CANAIS DEV</div>
-			<div id="canais" class="carrosel"></div>
+			<div id="canais" class="slides">
+				<div class="prev"></div>
+				<div class="next"></div>
+			</div>
 		</section>
-		<section class="section paralax-3">
+		<section id="slides-tools" class="slides-wrapper paralax-3">
 			<div class="category">FERRAMENTAS</div>
-			<div id="tools" class="carrosel"></div>
+			<div id="tools" class="slides">
+				<div class="prev"></div>
+				<div class="next"></div>
+			</div>
 		</section>
+		
 	</main>
 	<footer>
 		<span class="auth">DevFlix by Francisco Silva</span>
@@ -55,6 +69,8 @@
 	<script src="assets/js/createCardBoot.js"></script>
 	<script src="assets/js/createCardCanal.js"></script>
 	<script src="assets/js/createCardTools.js"></script>
+	<script src="assets/js/scripts.js"></script>
+
 </body>
 
 </html>
