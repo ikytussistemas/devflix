@@ -69,6 +69,7 @@ main {
 }
 
 .banner {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,10 +88,12 @@ main {
 .banner > button {
   height: 60px;
   width: 298px;
-  background-color: #e50914;
+  background-color: var(--link);
   border: none;
+  border-radius: 15px;
   position: absolute;
-  right: 50px;
+  right: 30px;
+  bottom: 3px;
   box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.8) inset;
   transition: all 0.5s;
 }
@@ -99,10 +102,9 @@ main {
   transform: scale(1.1);
 }
 .banner > button > a{
-  font-size: 20px;
+  font-size: 16px;
   font-style: italic;
-  font-weight: 700;
-  color: #fff;
+  color: var(--red);
   text-decoration: none;
 }
 

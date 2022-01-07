@@ -26,7 +26,7 @@
 
 .slides::-webkit-scrollbar-thumb{
   background-color: transparent;
-  border-bottom: 20px solid rgba(36, 36, 199, 0.974);    /* color of the scroll thumb */
+  border-bottom: 20px solid rgba(36, 36, 199, 0.974);
   border-radius: 20px;
 }
 
@@ -69,7 +69,73 @@
 .slide img {
   width: 100%;
   object-fit: cover;
+  max-height: 60%;
 }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.btn-play, .btn-detail {
+  height: 30px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  bottom: -30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  font-size: 14px;
+}
+
+.btn-play {
+  background-color: var(--ligth);
+  color: var(--primary);
+  font-weight: bold;
+  margin-right: 15px;
+}
+.btn-play::before {
+  content: '\25B6';
+}
+
+.btn-play:hover {
+  background-color: var(--primary);
+  color: var(--ligth);
+}
+
+.btn-play a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.btn-play a:hover {
+  color: var(--ligth);
+}
+
+.btn-detail {
+  background-color: rgba(109, 109, 110, 0.7);
+}
+
+.btn-detail:hover{
+  box-shadow: 4px 6px 10px rgb(0 0 0 / 30%);
+  background-color: rgba(109, 109, 110, 0.4);
+}
+
+.btn-detail::before {
+  content: '\1F6C8';
+  margin-right: 5px;
+  font-size: 22px;
+}
+
 .prev, .next {
   display: flex;
   flex-direction: column;

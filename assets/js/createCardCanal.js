@@ -15,8 +15,20 @@ const creatCardsCanal = (dados) => {
     var card = document.createElement('div');
     var img = document.createElement('img');
     var title = document.createElement("h1");
+    var buttons = document.createElement("div");
+    var btnPlay = document.createElement("button");
+    var link = document.createElement("a");
 
-    
+    link.href = dados[i]['url'];
+    link.target = '_blanc'
+    link.innerHTML = "Acessar";
+
+    btnPlay.classList.add("btn-play");
+    btnPlay.appendChild(link);
+
+    buttons.classList.add('buttons')
+    buttons.appendChild(btnPlay);
+        
     card.classList.add('slide');
     img.src = dados[i]["img"];
     
@@ -24,6 +36,7 @@ const creatCardsCanal = (dados) => {
     
     card.appendChild(img);
     card.appendChild(title);
+    card.appendChild(buttons)
     swiper.appendChild(card);
    
   }

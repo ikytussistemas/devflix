@@ -5,3 +5,15 @@
     height: 75px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .slides .buttons {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .slides .buttons .btn-play {
+    margin-bottom: 5px;
+  }
+}
